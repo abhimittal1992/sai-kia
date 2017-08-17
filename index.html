@@ -16,6 +16,58 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <style type="text/css">
+        
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+    </style>
 </head>
 <body>
     <header class="site-header">
@@ -37,7 +89,7 @@
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-default">
+         <nav class="navbar navbar-default">
             <div class="container">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse">
                     <span class="sr-only">Toggle Navigation</span>
@@ -52,18 +104,67 @@
                         <li class="active"><a href="index.html" title="">HOME</a></li>
                         <li class="dropdown">
                             <a href="#" title="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INDUSTRIES<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#" title="">SUB MENU 1</a></li>
-                                <li><a href="#" title="">SUB MENU 2</a></li>
-                                <li><a href="#" title="">SUB MENU 3</a></li>
-                            </ul>
+                           <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                            <li><a href="#">Railways</a></li>
+
+              <li><a href="#">Public Transport</a></li>
+            <li><a href="#">Utility</a></li>
+             <li><a href="#">Mobile</a></li>
+             <li><a href="#">Retail</a></li>
+            <li><a href="#">Smart City</a></li>
+
+
+
+             
+            </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" title="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCT & SERVICES<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#" title="">SUB MENU 1</a></li>
-                                <li><a href="#" title="">SUB MENU 2</a></li>
-                                <li><a href="#" title="">SUB MENU 3</a></li>
+                                <li class="dropdown-submenu">
+                <a tabindex="-1" href="#">Railway Products</a>
+                <ul class="dropdown-menu">
+                  <li><a tabindex="-1" href="infotainment.html">Infotainment Systems</a></li>
+
+                <li><a tabindex="-1" href="#">Public Address Systems</a></li>
+                  <li><a tabindex="-1" href="#">Control Panels</a></li>
+                  <li><a tabindex="-1" href="#">Surveillance System</a></li>
+                  <li><a tabindex="-1" href="#">Solar Solutions</a></li>
+
+
+                 <!--  <li class="dropdown-submenu">
+                    <a href="#">Even More..</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">3rd level</a></li>
+                        <li><a href="#">3rd level</a></li>
+                    </ul>
+                  </li> -->
+
+                </ul>
+              </li>
+                <li class="dropdown-submenu">
+                <a tabindex="-1" href="#">Mass Transit Products</a>
+                <ul class="dropdown-menu">
+                  <li><a tabindex="-1" href="#">Infotainment Systems</a></li>
+                <li><a tabindex="-1" href="#">Public Address Systems</a></li>
+                  <li><a tabindex="-1" href="#">Control Panels</a></li>
+                  <li><a tabindex="-1" href="#">Surveillance System</a></li>
+                  <li><a tabindex="-1" href="#">Solar Solutions</a></li>
+
+
+                 <!--  <li class="dropdown-submenu">
+                    <a href="#">Even More..</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">3rd level</a></li>
+                        <li><a href="#">3rd level</a></li>
+                    </ul>
+                  </li> -->
+
+                </ul>
+              </li>
+                                    <li><a href="#" title="">Smart City Solutions</a></li>
+                                <li><a href="#" title="">Utility Products</a></li>
+
                             </ul>
                         </li>
                         
