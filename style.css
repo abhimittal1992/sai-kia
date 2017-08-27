@@ -1,7 +1,7 @@
 /* Base */
 * {outline:none;}
 html, body {height: 100%;}
-body {font-family: 'Open Sans', sans-serif;font-size: 13px;line-height: 1.6;color: #8c8c8c;background-color: #fff;}
+body {font-family: 'Open Sans', sans-serif;font-size: 13px;line-height: 1.6;background-color: #fff;}
 h1, h2, h3, h4, h5, h6 {font-family: 'Open Sans', sans-serif;}
 a {color: #404040;}
 a:hover {color: #404040;transition-property: all;transition-duration: 0.3s;transition-timing-function: linear;}
@@ -70,7 +70,9 @@ a.none:hover {text-decoration: none;}
 .boxes_area h3 {font-size: 16px;font-weight: 500;margin-top: 0;margin-bottom: 18px;}
 .services {padding-top: 50px;padding-bottom: 50px;}
 h2.section-title {text-align: center;color: #404040;}
-.services p.desc {text-align: center;font-size: 13px;margin-bottom: 20px;}
+h1.section-title {text-align: center;color: #404040;}
+
+.services p.desc {text-align: center;font-size: 20px;margin-bottom: 20px;}
 .services .media {margin-top: 30px;}
 .services .media i {font-size: 45px;color: #005FA6;}
 .services .media h4 {font-size: 15px;font-weight: 600;color: #404040;}
@@ -98,7 +100,6 @@ h2.section-title {text-align: center;color: #404040;}
 @media (min-width: 992px ) {.carousel-inner .active.left {left: -25%;}.carousel-inner .next {left: 25%;}.carousel-inner .prev {left: -25%;}}
 
 /* Footer */
-footer.site-footer {background: #e6e6e6;padding: 20px 0 0;float: left;width: 100%;}
 footer.site-footer h4 {font-size: 17px;font-weight: 500;}
 footer.site-footer ul {padding-left: 0;margin-bottom: 20px;list-style: none;}
 footer.site-footer ul a {color: #666;font-size: 13px;}
@@ -193,4 +194,5 @@ ul.big li:nth-child(2n) {margin-left: 2%;}
 
 .removeCursor:hover{cursor:normal !important; color:#262626 !important;}
 .setCursor:hover{cursor: pointer;}
+.font20{font-size: 35px !important}
 
