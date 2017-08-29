@@ -198,4 +198,5 @@ ul.big li:nth-child(2n) {margin-left: 2%;}
 .removeCursor:hover{cursor:normal !important; color:#262626 !important;}
 .setCursor:hover{cursor: pointer;}
 .font20{font-size: 35px !important}
+.row{margin-left: 0px !important; margin-right: 0px !important;}
 
